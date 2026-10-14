@@ -1,5 +1,5 @@
 {
-  "version": 3,
+  "version": 4,
   "targets": {
     "net7.0": {}
   },
@@ -8,19 +8,24 @@
     "net7.0": []
   },
   "packageFolders": {
-    "C:\\Users\\snico\\.nuget\\packages\\": {}
+    "C:\\Users\\emili\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Boulot\\workspace\\HNI-TPmoyennes\\HNI-TPmoyennes.csproj",
-      "projectName": "HNI-TPmoyennes",
-      "projectPath": "D:\\Boulot\\workspace\\HNI-TPmoyennes\\HNI-TPmoyennes.csproj",
-      "packagesPath": "C:\\Users\\snico\\.nuget\\packages\\",
-      "outputPath": "D:\\Boulot\\workspace\\HNI-TPmoyennes\\obj\\",
+      "projectUniqueName": "D:\\-- Emilien\\HN Institut\\2- DotNET\\5- Programmation_C#\\EDE-TPmoyennes\\EDE-TPmoyennes.csproj",
+      "projectName": "EDE-TPmoyennes",
+      "projectPath": "D:\\-- Emilien\\HN Institut\\2- DotNET\\5- Programmation_C#\\EDE-TPmoyennes\\EDE-TPmoyennes.csproj",
+      "packagesPath": "C:\\Users\\emili\\.nuget\\packages\\",
+      "outputPath": "D:\\-- Emilien\\HN Institut\\2- DotNET\\5- Programmation_C#\\EDE-TPmoyennes\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\snico\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\emili\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -32,6 +37,7 @@
       },
       "frameworks": {
         "net7.0": {
+          "framework": "net7.0",
           "targetAlias": "net7.0",
           "projectReferences": {}
         }
@@ -40,10 +46,17 @@
         "warnAsError": [
           "NU1605"
         ]
-      }
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      },
+      "SdkAnalysisLevel": "10.0.400"
     },
     "frameworks": {
       "net7.0": {
+        "framework": "net7.0",
         "targetAlias": "net7.0",
         "imports": [
           "net461",
@@ -61,7 +74,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.401\\RuntimeIdentifierGraph.json"
       }
     }
   }
